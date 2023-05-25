@@ -1,8 +1,8 @@
 {
-  "name": "nostr-react",
+  "name": "nostr-react-native",
   "version": "0.7.0",
   "license": "MIT",
-  "author": "t4t5 (https://t4t5.xyz)",
+  "author": "benny blader (https://rollerhodl.me)",
   "main": "dist/index.js",
   "module": "dist/nostr-react.esm.js",
   "typings": "dist/index.d.ts",
@@ -68,7 +68,6 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "jotai": "^1.12.1",
     "nostr-tools": "^1.1.0"
   }
 }

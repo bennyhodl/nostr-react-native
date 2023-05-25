@@ -1,4 +1,3 @@
-import { atom, useAtom } from "jotai"
 import { nip19 } from "nostr-tools"
 import { useEffect, useState } from "react"
 
