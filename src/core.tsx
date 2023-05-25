@@ -178,8 +178,8 @@ export function useNostrEvents({
   let onDoneCallback: null | OnDoneFunc = null
 
   // Lets us detect changes in the nested filter object for the useEffect hook
-  const filterBase64 =
-    typeof window !== "undefined" ? window.btoa(JSON.stringify(filter)) : null
+  // const filterBase64 =
+  //   typeof window !== "undefined" ? window.btoa(JSON.stringify(filter)) : null
 
   const _unsubscribe = (sub: Sub, relay: Relay) => {
     log(
@@ -243,7 +243,7 @@ export function useNostrEvents({
         _unsubscribe(sub, relay)
       })
     }
-  }, [connectedRelays, filterBase64, enabled])
+  }, [connectedRelays, /*filterBase64*/, enabled])
 
   const uniqEvents = events.length > 0 ? uniqBy(events, "id") : []
   const sortedEvents = uniqEvents.sort((a, b) => b.created_at - a.created_at)
