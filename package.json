@@ -1,6 +1,6 @@
 {
   "name": "nostr-react-native",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "license": "MIT",
   "author": "benny blader (https://rollerhodl.me)",
   "main": "dist/index.js",
