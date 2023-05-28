@@ -10,15 +10,7 @@
     "dist",
     "src"
   ],
-  "scripts": {
-    "analyze": "size-limit --why",
-    "build": "dts build",
-    "lint": "dts lint",
-    "prepare": "dts build",
-    "size": "size-limit",
-    "start": "dts watch",
-    "test": "dts test --passWithNoTests"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/bennyhodl/nostr-react-native"
@@ -33,20 +25,20 @@
     "node": ">=12"
   },
   "devDependencies": {
+    "@tsconfig/create-react-app": "^1.0.3",
+    "@types/react": "^18.2.7",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
-    "husky": "^8.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "@tsconfig/create-react-app": "^1.0.3",
-    "@types/react": "^18.2.7",
     "jotai": "^2.1.0",
-    "nostr-tools": "1.11.1"
+    "nostr-tools": "1.11.1",
+    "react-native": "^0.71.8"
   }
 }
